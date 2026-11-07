@@ -1,0 +1,47 @@
+completed	success	next	CI workflow	main	push	42360462617	26s	2026-11-07T09:36:34Z
+completed	success	Add Flake8 linting to CI workflow	CI workflow	main	push	42360309440	25s	2026-11-07T09:34:27Z
+completed	failure	COMMIT MESSAGE	CI workflow	main	push	42359941628	0s	2026-11-07T09:29:27Z
+completed	failure	Initial commit	CI workflow	main	push	42358719664	0s	2026-11-07T09:12:11Z
+
+✓ main CI workflow · 42360462617
+Triggered via push about 23 minutes ago
+
+JOBS
+✓ build in 23s (ID 128367552284)
+
+ANNOTATIONS
+! Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v3. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+build: .github#2
+
+- "The ubuntu-latest label will migrate to Ubuntu 26 beginning October 19, 2026. For more information, see https://github.com/actions/runner-images/issues/14748"
+build: .github#1
+
+
+For more information about the job, try: gh run view --job=128367552284
+View this run on GitHub: https://github.com/fabiantinschmann/ci-cd-final-project/actions/runs/42360462617
+
+✓ main CI workflow · 42360462617
+Triggered via push about 23 minutes ago
+
+JOBS
+✓ build in 23s (ID 128367552284)
+  ✓ Set up job
+  ✓ Initialize containers
+  ✓ Checkout
+  ✓ Install dependencies
+  ✓ Lint with flake8
+  ✓ Run unit tests with nose
+  ✓ Post Checkout
+  ✓ Stop containers
+  ✓ Complete job
+
+ANNOTATIONS
+! Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v3. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+build: .github#2
+
+- "The ubuntu-latest label will migrate to Ubuntu 26 beginning October 19, 2026. For more information, see https://github.com/actions/runner-images/issues/14748"
+build: .github#1
+
+
+For more information about the job, try: gh run view --job=128367552284
+View this run on GitHub: https://github.com/fabiantinschmann/ci-cd-final-project/actions/runs/42360462617
